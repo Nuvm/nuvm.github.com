@@ -1,0 +1,30 @@
+body {
+  position:absolute;
+  font-family: Roboto,sans-serif;
+  font-weight:400;
+}
+.tile {
+  position:absolute;
+  height:20px;
+  width:20px;
+  background-color:rgba(64,64,64,0.5);
+}
+.tile:hover {
+  background-color:rgba(128,128,128,0.8);
+  border: 1px solid whitesmoke;
+  /*-webkit-animation-name: loadRotate;
+  -webkit-animation-duration:0.006s;
+  -webkit-animation-iteration-count:1667;*/
+}
+.tile:click {
+  background-color:rgba(255,255,255,0.3);
+  border: 1px solid whitesmoke;
+}
+@-webkit-keyframes loadRotate{
+  from {
+    -webkit-transform:rotate(24deg);
+  } 
+  to {
+    -webkit-transform:rotate(384deg);
+  }
+}
